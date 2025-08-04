@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#conteudo_principal{
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'cabecalho cabecalho cabecalho'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'conteudo conteudo conteudo'
+    'rodape rodape rodape'
+    ;
+}
+#cabecalho{
+
+    background-color: rgb(165, 44, 0);
+    padding: 10px;
+    gap: 0px 10px;
+
+    grid-area: cabecalho;
+
+    display: grid;
+
+    grid-template-areas: 
+    'logo menu_principal menu_principal menu_principal menu_principal'
+    ;
+}
+#logo{
+    background-color: tomato;
+
+    grid-area: logo;
+}
+#menu-principal{
+    background-color: slateblue;
+
+    grid-area: menu_principal;
+}
+#conteudo{
+
+    background-color: cadetblue;
+
+    grid-area: conteudo;
+
+    display: grid;
+    grid-template-areas: 
+    
+    'lateral especifico especifico'
+
+    ;
+
+}
+#lateral{
+    background-color: olive;
+    grid-area: lateral;
+}
+#conteudo_especifico{
+    background-color: teal;
+    grid-area: especifico;
+}
+#rodape{
+    background-color:chocolate;
+    grid-area: rodape;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+section{
+    background-color: bisque;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+header, footer{
+    background-color: rgba(0, 139, 139, 0.795);
+    border: 2px solid rgb(255, 255, 255);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+article{
+    background-color: rgba(0, 139, 139, 0.795);
+    border: 2px solid rgb(255, 255, 255);
+}

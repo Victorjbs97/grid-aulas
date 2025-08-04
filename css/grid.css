@@ -3,3 +3,25 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+section{
+    background-color: bisque;
+    height: 100vh;
+    /* Estrutura de leoiaute pelo Grid */
+    display: grid;
+    /*Controla o tamanho e quantidade da coluna  */
+    grid-template-columns: 1fr 2fr;
+    /* Controla o tamanho das linhas */
+    /* grid-template-rows: 1fr 2fr;   */  
+}
+
+div{
+    background-color: brown;
+    height: 200px;
+    border: 2px solid white;
+    font-size: 22px;
+    color: beige;
+    text-align: center;
+    
+    
+}
